@@ -1,15 +1,12 @@
 import time
 import random
-
 def main():
-    # --- GAME VARIABLES ---
+    # --- game variable ---
     suhu_awal = 14.0  
     suhu_maks = 16.0  
     skor_kesadaran = 0
     hari = 1
-    
-    # --- EXAM WEEK SCENARIOS ---
-    # 5 distinct subjects for a full 5-day school exam week!
+    # --- ujian ---
     skenario_pool = [
         {
             "hari_nama": "SENIN: Ujian Konservasi Air 🚰",
@@ -72,7 +69,6 @@ def main():
             "fakta": "Fakta BMKG: Reboisasi dan menjaga kelestarian pohon adalah salah satu langkah mitigasi paling efektif untuk menyerap emisi gas rumah kaca."
         }
     ]
-
     print("====================================================")
     print("🌍   WELCOME TO ECO-QUEST: EXAM WEEK EDITION!   🌍")
     print("====================================================")
@@ -109,14 +105,11 @@ def main():
             else:
                 suhu_awal += skenario["efek_B"]["suhu"]
                 skor_kesadaran += skenario["efek_B"]["skor"]
-            
         print(f"\n💡 {skenario['fakta']}")
         print("-----------------------------------------")
-        
         hari += 1
         time.sleep(2)
-
-    # --- HACKATHON REPORT CARD ENDINGS ---
+    # --- akhir exam dan endingnya ---
     print("\n====================================================")
     if suhu_awal >= suhu_maks:
         print(f"💀 KELUAR DARI KELAS! Suhu bumi mencapai {suhu_awal:.1f}°C sebelum ujian selesai.")
@@ -125,8 +118,7 @@ def main():
         print("🏆 CONGRATULATIONS! Kamu berhasil menyelesaikan Exam Week!")
         print(f"🌍 Kamu menjaga kestabilan iklim di suhu {suhu_awal:.1f}°C.")
         print(f"📊 Skor Akumulasi Ujian: {skor_kesadaran} Poin")
-        
-        # Calculate dynamic final report card grades
+        # skor kamu
         if skor_kesadaran == 100:
             print("🎖️ Grade Rapor Anda: A+ (Pejuang Iklim Sejati!)")
         elif skor_kesadaran >= 80:
