@@ -1,14 +1,23 @@
-## 💡 Inilah Ide untuk Proyek Saya:
-> **Masalah:** Perubahan iklim dunia semakin kritis (Bumi semakin mendidih menurut BMKG), namun banyak orang yang masih belum menyadari dampak dari kebiasaan sehari-hari mereka.
->
-> **Solusi Kami:** Sebuah simulator "Exam Week" (Minggu Ujian) sepanjang 5 hari. Pemain akan menghadapi ujian simulasi dengan skenario dilema lingkungan setiap harinya (Senin-Jumat). Setiap keputusan yang diambil akan langsung memengaruhi suhu bumi dan nilai rapor akhir mereka (Grade A+ sampai F).
+# 🤖 Eco-Quest: The Climate Exam Discord Bot 🌍
 
-## 📊 Fitur Utama Aplikasi:
-* **5-Day Exam Loop:** Ujian tematik dari Senin sampai Jumat (Konservasi Air, Transportasi, Sampah, Energi, dan Ujian Akhir).
-* **Dynamic Temperature Trigger:** Jika keputusan pemain buruk dan suhu bumi naik melebihi 16.0°C, game akan langsung berakhir (*Game Over* / Bumi Mendidih).
-* **BMKG Educational Insights:** Menampilkan fakta riil dari BMKG setelah pemain memilih jawaban agar mereka belajar hal baru.
-* **Smart Grading System:** Menghitung skor akhir secara dinamis dan memberikan nilai rapor asli (`A+`, `A`, `B`, `C`, `D`, atau `F`).
+Proyek ini adalah sebuah Discord Bot interaktif yang dirancang untuk memenuhi tugas Hackathon Kodland dengan tema **Perubahan Iklim**. Bot ini berfungsi sebagai media edukasi kasual bagi para pengguna Discord untuk menguji kepedulian mereka terhadap lingkungan melalui simulasi "Exam Week".
 
-## 🛠️ Teknologi yang Digunakan:
-* **Bahasa Pemrograman:** Python 3
-* **Library:** `time` (untuk jeda teks dramatis) dan `random` (untuk variasi masa depan).
+---
+
+## 💡 Ide Proyek:
+> **Arah Proyek:** Discord Bot
+> **Solusi:** Mengubah server Discord menjadi ruang ujian interaktif di mana bot akan memberikan skenario dilema lingkungan harian. Pengguna harus memilih keputusan yang tepat agar bumi tidak mengalami *Global Boiling* (Suhu > 16°C) dan mendapatkan nilai rapor terbaik.
+
+---
+
+## 🚀 Fitur yang Akan Diimplementasikan:
+* **Slash Commands (`/mulai_ujian`):** Untuk mendaftarkan user ke dalam simulasi ujian 5 hari.
+* **Button Interaction:** Menggunakan tombol Discord (A/B) untuk menerima input jawaban user secara *user-friendly*.
+* **Dynamic Grading System:** Memberikan penilaian hasil akhir berupa Grade (A+ hingga F) di akhir sesi ujian.
+* **BMKG Integration:** Menyajikan data dan fakta edukatif dari BMKG setelah setiap pertanyaan dijawab.
+
+---
+
+## 💻 Teknologi & Library:
+* **Language:** Python 3
+* **Libraries:** `discord.py` (atau library bot yang diajarkan), `random`, `time`
