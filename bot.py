@@ -133,4 +133,4 @@ async def mulai_ujian(ctx):
                        f"🎖️ **Grade Rapor Anda:** {grade}")
     await ctx.send("====================================================")
 
-bot.run("MTUxODkwMDQyNjE0ODE1MTM2OA.GNMM-Y.pmP3FPH4Xv773OaOzlNHFp8OWGtVR4p3mC47XA")
+bot.run("token here")
