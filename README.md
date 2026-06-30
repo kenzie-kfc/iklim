@@ -1,4 +1,5 @@
-# 🤖 Eco-Quest: The Climate Exam Discord Bot 🌍
+# (main.py tidak berguna cuma bot.py dan requirement.txt)
+🤖 Eco-Quest: The Climate Exam Discord Bot 🌍
 
 Proyek ini adalah sebuah Discord Bot interaktif yang dirancang untuk memenuhi tugas Hackathon Kodland dengan tema **Perubahan Iklim**. Bot ini berfungsi sebagai media edukasi kasual bagi para pengguna Discord untuk menguji kepedulian mereka terhadap lingkungan melalui simulasi "Exam Week".
 
